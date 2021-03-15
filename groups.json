@@ -1,0 +1,35 @@
+{
+  "group1": [
+    {
+      "name": "Algorithm",
+      "action": "reset"
+    },
+    {
+      "name": "Osc-A On",
+      "action": "reset"
+    },
+    {
+      "name": "Osc-B On",
+      "action": "set",
+      "value": 1
+    },
+    {
+      "name": "Osc-B Level",
+      "action": "set_random",
+      "min": 0.75,
+      "max": 1
+    },
+    {
+      "name": "B Coarse",
+      "action": "set_random",
+      "min": 0,
+      "max": 9
+    },
+    {
+      "name": "B Fine",
+      "action": "set_random",
+      "min": 0,
+      "max": 1
+    }
+  ]
+}
