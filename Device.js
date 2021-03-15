@@ -19,8 +19,17 @@ exports.Device = function(live, devicePath) {
   }
   this.getParams()
 
+  this.resetParams = function() {
+    Object.keys(this.params).forEach(function(name) {
+      var p = this.params[name]
+      this.live.goto(p.path)
+      this.live.set("value", p.reset_value)
+    }.bind(this))
+  }
 
   this.setParams = function(group) {
+    this.resetParams()
+
     for (var i  = 0; i != group.length; i++) {
       var param = this.params[group[i].get('name')]
       this.live.goto(param.path)

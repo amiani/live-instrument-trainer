@@ -3,9 +3,13 @@ var joinPaths = require("joinPaths").joinPaths
 var Device = require("Device").Device
 var service = this.patcher.getnamed("service")
 
-var operatorPath = 'this_device canonical_parent devices 1'
-var live = new LiveAPI(operatorPath)
-var operator = new Device(live, operatorPath)
+var traineePath = 'this_device canonical_parent devices 1 chains 0 devices 0'
+var targetPath = 'this_device canonical_parent devices 1 chains 1 devices 0'
+//var operatorPath = 'this_device canonical_parent devices 1'
+var live = new LiveAPI()
+var trainee = new Device(live, traineePath)
+var target = new Device(live, targetPath)
+
 
 //service.message("params", "params")
 function bang() {
@@ -14,7 +18,6 @@ function bang() {
 }
 
 var group = new Dict("group")
-log('made dict')
 function setGroup() {
-	operator.setParams(group.get('group1'))
+	target.setParams(group.get('group1'))
 }
