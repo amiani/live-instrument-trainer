@@ -1,12 +1,11 @@
 var log = require("log").log(post)
 var joinPaths = require("joinPaths").joinPaths
+var Device = require("Device").Device
 var service = this.patcher.getnamed("service")
 
 var operatorPath = 'this_device canonical_parent devices 1'
 var live = new LiveAPI(operatorPath)
-var self = this.box
-
-//log(param.get("is_enabled"))
+var operator = new Device(live, operatorPath)
 
 //service.message("params", "params")
 function bang() {
@@ -14,9 +13,8 @@ function bang() {
 	outlet(0, "script start")
 }
 
-function loadGroups() {
-	var groups = new Dict("groups")
-	groups.import_json("groups.json")
-	log(groups.get("group1")[0])
+var group = new Dict("group")
+log('made dict')
+function setGroup() {
+	operator.setParams(group.get('group1'))
 }
-loadGroups()

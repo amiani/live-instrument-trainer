@@ -17,11 +17,12 @@ readJSON("./groups.json", async (err, data) => {
     log(err)
     return
   }
+  //log('sending dict', data)
   try {
-    log('setting dict')
-    await max.setDict("group1", "hi")
+    await max.setDict('group', data)
+    await max.outlet("setGroup")
   } catch (err) {
-    log(`Error: ${err}`)
+    log(err)
   }
 })
 
