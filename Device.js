@@ -12,7 +12,7 @@ exports.Device = function(live, devicePath) {
     //var params = new Dict("params")
     var numParams = live.getcount("parameters")
     for (var i = 0; i != numParams; i++) {
-      var param = new DeviceParameter(joinPaths(this.paramsPath, i))
+      var param = new DeviceParameter(this.live, joinPaths(this.paramsPath, i))
       this.params[param.name] = param
       //params.setparse(param.name, JSON.stringify(param))
     }

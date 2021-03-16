@@ -12,21 +12,24 @@ const readJSON = (path, cb) => {
   })
 }
 
-readJSON("./groups.json", async (err, data) => {
-  if (err) {
-    log(err)
-    return
-  }
-  //log('sending dict', data)
-  try {
-    await max.setDict('group', data)
-    await max.outlet("setGroup")
-  } catch (err) {
-    log(err)
-  }
-})
+function loadGroup() {
+  readJSON("./groups.json", async (err, data) => {
+    if (err) {
+      log(err)
+      return
+    }
+    //log('sending dict', data)
+    try {
+      await max.setDict('group', data)
+      await max.outlet("setGroup")
+    } catch (err) {
+      log(err)
+    }
+  })
+}
 
 const handlers = {
+  loadGroup, 
   params: async dictName => {
     try {
       const params = await max.getDict(dictName)

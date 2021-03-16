@@ -1,6 +1,7 @@
-exports.DeviceParameter = function(path) {
-  this.path = path
+exports.DeviceParameter = function(live, path) {
   live.goto(path)
+  this.live = live
+  this.path = path
   this.name = live.get("name")
   this.is_quantized = parseInt(live.get("is_quantized"), 10)
   if (this.is_quantized == 1) {
@@ -12,8 +13,8 @@ exports.DeviceParameter = function(path) {
   this.min = live.get("min")
   this.max = live.get("max")
 
-  this.set = function(v) {
-    live.goto(this.path)
-    live.set("value", v)
+  this.getValue = function() {
+    this.live.goto(this.path)
+    return this.live.get("value")
   }
 }
