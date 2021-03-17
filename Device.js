@@ -1,9 +1,8 @@
 const joinPaths = require('joinPaths').joinPaths
 const DeviceParameter = require('DeviceParameter').DeviceParameter
 
-exports.Device = function(live, patcher, devicePath, remotes) {
+exports.Device = function(live, devicePath, remotes) {
   this.live = live
-  this.patcher = patcher
   this.remotes = remotes
   this.devicePath = devicePath
   this.paramsPath = joinPaths(devicePath, 'parameters')
@@ -62,11 +61,5 @@ exports.Device = function(live, patcher, devicePath, remotes) {
     Object.keys(this.params).forEach(function(name) {
       this.params[name].unlock()
     }.bind(this))
-  }
-
-  this.destroy = function() {
-    Object.keys(this.params).forEach(function(name) {
-      this.params[name].destroy(this.patcher)
-    })
   }
 }

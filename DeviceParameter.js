@@ -29,8 +29,4 @@ exports.DeviceParameter = function(live, path, remote) {
     log(this.name)
     this.remote['id'](0)
   }
-
-  this.destroy = function(patcher) {
-    patcher.remove(this.remote)
-  }
 }
