@@ -10,10 +10,15 @@ exports.Device = function(live, devicePath, remotes) {
 
   this.getParams = function() {
     this.live.goto(this.devicePath)
+    var dict = new Dict('params')
     var numParams = this.live.getcount("parameters")
     for (var i = 0; i != numParams; i++) {
       var param = new DeviceParameter(this.live, joinPaths(this.paramsPath, i), this.remotes[i])
       this.params[param.name] = param
+      dict.setparse(param.name, JSON.stringify(param))
+      var parsed = dict.get(param.name)
+      parsed.remove('remote')
+      dict.replace(param.name, parsed)
     }
   }
   this.getParams()
