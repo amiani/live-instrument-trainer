@@ -2,23 +2,18 @@
 
 exports.evaluate = function(patch, target, group) {
   var totalError = 0
-  Object.keys(patch.params).forEach(function(name) {
-    var g = undefined
-    for (var i = 0; i != group.length; i++) {
-      if (group[i].get('name') === name) {
-        g = group[i]
-        break
-      }
+  for (var i = 0; i != group.length; i++) {
+    var name = group[i].get('name')
+    var targetParam = target.params[name]
+    var targetState = targetParam.getState()
+    if (targetState == 2) {
+      targetParam.unlock()
     }
-    var patchParam = patch.params[name]
-    var patchValue = patchParam.getValue()
-    var targetValue = target.params[name].getValue()
-    if (g === undefined) {
-      if (parseFloat(patchValue) !== parseFloat(targetValue)) {
-        log(patchValue, targetValue)
-        log('non-group param ' + name + ' set incorrectly')
-      }
-    } else {
+    if (targetParam.getState() == 0) {
+      var targetValue = targetParam.getValue()
+      var patchParam = patch.params[name]
+      var patchValue = patchParam.getValue()
+
       var range = patchParam.max - patchParam.min
       var patchNorm = (patchValue - patchParam.min) / range
       var targetNorm = (targetValue - patchParam.min) / range
@@ -26,6 +21,9 @@ exports.evaluate = function(patch, target, group) {
       //log('error: ', error)
       totalError += error
     }
-  })
+    if (targetState == 2) {
+      targetParam.lock()
+    }
+  }
   return totalError
 }

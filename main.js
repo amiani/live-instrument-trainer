@@ -18,6 +18,7 @@ function loadbang() {
 }
 
 function run() {
+	//
 	var patchRemotes = []
 	var targetRemotes = []
 	for (var i = 0; i != 195; i++) {
@@ -26,7 +27,6 @@ function run() {
 	}
 
 	var live = new LiveAPI()
-	//
 	var patchPath = 'this_device canonical_parent devices 1 chains 0 devices 0'
 	var targetPath = 'this_device canonical_parent devices 1 chains 1 devices 0'
 	var patch = new Device(live, patchPath, patchRemotes)
@@ -36,7 +36,7 @@ function run() {
 	targetCollapsed.property = 'is_collapsed'
 
 	this.checkPatch = function() {
-		var perc = evaluate(patch, target, group.get("group1"))
+		var perc = evaluate(patch, target, groups.get("group1"))
 		percComment.set(perc)
 	}
 
@@ -59,6 +59,10 @@ function run() {
 	this.unlockAll = function() {
 		patch.unlockAll()
 		target.unlockAll()
+	}
+
+	this.writeParams = function() {
+		service.message('params', 'params')
 	}
 }
 

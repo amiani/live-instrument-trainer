@@ -34,7 +34,7 @@ const handlers = {
     try {
       const params = await max.getDict(dictName)
       log('exporting params')
-      fs.writeFile('params.json', JSON.stringify(params), err => {
+      fs.writeFile('paramsRaw.json', JSON.stringify(params), err => {
         if (err) throw err
       })
     } catch (err) {
