@@ -20,6 +20,11 @@ exports.DeviceParameter = function(live, path, remote) {
     return this.live.get("value")
   }
 
+  this.getState = function() {
+    this.live.goto(this.path)
+    return this.live.get('state')
+  }
+
   this.lock = function() {
     this.remote['id'](this.id)
     //this.remote['float'](this.reset_value)
