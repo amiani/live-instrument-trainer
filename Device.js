@@ -27,10 +27,12 @@ exports.Device = function(live, devicePath, remotes) {
   }
 
   this.setParams = function(group) {
+    this.unlockAll()
     this.resetParams()
 
     for (var i  = 0; i != group.length; i++) {
-      var param = this.params[group[i].get('name')]
+      var name = group[i].get('name')
+      var param = this.params[name]
       this.live.goto(param.path)
       switch (group[i].get('action')) {
         case 'reset':
@@ -49,11 +51,29 @@ exports.Device = function(live, devicePath, remotes) {
           log('unknown action: ' + params.action)
       }
     }
+    this.lockAll()
   }
   
-  this.lockParams = function(paramNames) {
+  this.lock = function(paramNames) {
     for (var i = 0; i != paramNames.length; i++) {
       this.params[paramNames[i]].lock()
+    }
+  }
+
+  this.lockAll = function() {
+    Object.keys(this.params).forEach(function(name) {
+      this.params[name].lock()
+    }.bind(this))
+  }
+
+  this.lockAllExcept = function(paramNames) {
+    this.lockAll()
+    this.unlock(paramNames)
+  }
+  
+  this.unlock = function(paramNames) {
+    for (var i = 0; i != paramNames.length; i++) {
+      this.params[paramNames[i]].unlock()
     }
   }
 

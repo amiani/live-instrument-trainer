@@ -20,7 +20,7 @@ function loadGroup() {
     }
     //log('sending dict', data)
     try {
-      await max.setDict('group', data)
+      await max.setDict('groups', data)
       await max.outlet("setGroup")
     } catch (err) {
       log(err)

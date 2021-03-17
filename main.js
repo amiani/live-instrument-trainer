@@ -26,6 +26,7 @@ function run() {
 	}
 
 	var live = new LiveAPI()
+	//
 	var patchPath = 'this_device canonical_parent devices 1 chains 0 devices 0'
 	var targetPath = 'this_device canonical_parent devices 1 chains 1 devices 0'
 	var patch = new Device(live, patchPath, patchRemotes)
@@ -43,17 +44,21 @@ function run() {
 		targetCollapsed.set('is_collapsed', 1)
 	}
 
-	var group = new Dict("group")
+	var groups = new Dict("groups")
 	this.setGroup = function() {
-		target.setParams(group.get('group1'))
+		var group = groups.get('group1')
+		var names = group.map(function(g) { return g.get('name') })
+		target.setParams(group)
+		patch.lockAllExcept(names)
 	}
 
-	this.lockParams = function() {
-		patch.lockParams(['Device On'])
+	this.lockTarget = function() {
+		target.lockAll()
 	}
 
 	this.unlockAll = function() {
 		patch.unlockAll()
+		target.unlockAll()
 	}
 }
 
