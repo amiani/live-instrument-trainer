@@ -3,7 +3,7 @@ exports.DeviceParameter = function(live, path, remote) {
   this.live.goto(path)
   this.id = this.live.id
   this.path = path
-  this.name = live.get("name")
+  this.name = live.get("name")[0]
   this.remote = remote
   this.is_quantized = parseInt(live.get("is_quantized"), 10)
   if (this.is_quantized == 1) {
