@@ -1,8 +1,10 @@
-exports.DeviceParameter = function(live, path) {
-  live.goto(path)
+exports.DeviceParameter = function(live, path, remote) {
   this.live = live
+  this.live.goto(path)
+  this.id = this.live.id
   this.path = path
   this.name = live.get("name")
+  this.remote = remote
   this.is_quantized = parseInt(live.get("is_quantized"), 10)
   if (this.is_quantized == 1) {
     //this.value_items = live.get("value_items")
@@ -16,5 +18,19 @@ exports.DeviceParameter = function(live, path) {
   this.getValue = function() {
     this.live.goto(this.path)
     return this.live.get("value")
+  }
+
+  this.lock = function() {
+    this.remote['id'](this.id)
+    this.remote['float'](this.reset_value)
+  }
+
+  this.unlock = function() {
+    log(this.name)
+    this.remote['id'](0)
+  }
+
+  this.destroy = function(patcher) {
+    patcher.remove(this.remote)
   }
 }

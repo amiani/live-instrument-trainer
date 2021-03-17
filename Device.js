@@ -1,20 +1,20 @@
 const joinPaths = require('joinPaths').joinPaths
 const DeviceParameter = require('DeviceParameter').DeviceParameter
 
-exports.Device = function(live, devicePath) {
+exports.Device = function(live, patcher, devicePath, remotes) {
   this.live = live
+  this.patcher = patcher
+  this.remotes = remotes
   this.devicePath = devicePath
   this.paramsPath = joinPaths(devicePath, 'parameters')
   this.params = {}
 
   this.getParams = function() {
     this.live.goto(this.devicePath)
-    //var params = new Dict("params")
-    var numParams = live.getcount("parameters")
+    var numParams = this.live.getcount("parameters")
     for (var i = 0; i != numParams; i++) {
-      var param = new DeviceParameter(this.live, joinPaths(this.paramsPath, i))
+      var param = new DeviceParameter(this.live, joinPaths(this.paramsPath, i), this.remotes[i])
       this.params[param.name] = param
-      //params.setparse(param.name, JSON.stringify(param))
     }
   }
   this.getParams()
@@ -50,5 +50,23 @@ exports.Device = function(live, devicePath) {
           log('unknown action: ' + params.action)
       }
     }
+  }
+  
+  this.lockParams = function(paramNames) {
+    for (var i = 0; i != paramNames.length; i++) {
+      this.params[paramNames[i]].lock()
+    }
+  }
+
+  this.unlockAll = function() {
+    Object.keys(this.params).forEach(function(name) {
+      this.params[name].unlock()
+    }.bind(this))
+  }
+
+  this.destroy = function() {
+    Object.keys(this.params).forEach(function(name) {
+      this.params[name].destroy(this.patcher)
+    })
   }
 }
