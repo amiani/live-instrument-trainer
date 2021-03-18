@@ -1,18 +1,14 @@
 var log = require("log").log(post)
 var joinPaths = require("joinPaths").joinPaths
 var Device = require("Device").Device
-var service = this.patcher.getnamed("service")
-var self = this.box
-var defer = this.patcher.getnamed('deferrer')
 var evaluate = require("evaluate").evaluate
 
-inlets = 2
-outlets = 2
-
-var checkButton = this.patcher.getnamed('checkButton')
-var percComment = this.patcher.getnamed('percComment')
-
 function init() {
+	log('initializing')
+	var service = this.patcher.getnamed("service")
+	var defer = this.patcher.getnamed('deferrer')
+	var percComment = this.patcher.getnamed('percComment')
+
 	var patchRemotes = []
 	var targetRemotes = []
 	for (var i = 0; i != 195; i++) {
@@ -26,8 +22,6 @@ function init() {
 	var patch = new Device(live, patchPath, patchRemotes)
 	var target = new Device(live, targetPath, targetRemotes)
 
-	var targetCollapsed = new LiveAPI(handleTargetCollapsed, joinPaths(targetPath, 'view'))
-	targetCollapsed.property = 'is_collapsed'
 
 	this.checkPatch = function() {
 		var perc = evaluate(patch, target, groups.get("group1"))
@@ -63,14 +57,18 @@ function init() {
 		this.setGroup()
 	}
 
+	this.handleTargetCollapsed = function(args) {
+		if (args[0] === 'is_collapsed' && args[1] === 0) {
+			defer['anything']('collapseTarget')
+		}
+	}
+
+	var targetCollapsed = new LiveAPI(this.handleTargetCollapsed, joinPaths(targetPath, 'view'))
+	targetCollapsed.property = 'is_collapsed'
+
 	service.message('loadGroup')
 }
 
-function handleTargetCollapsed(args) {
-	if (args[0] === 'is_collapsed' && args[1] === 0) {
-		defer['anything']('collapseTarget', 'hi', 'hello')
-	}
-}
 
 this.createRemotes = function() {
 	for (var i = 0; i != 195; i++) {
