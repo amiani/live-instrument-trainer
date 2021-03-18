@@ -17,13 +17,12 @@ exports.evaluate = function(patch, target, group) {
       var range = patchParam.max - patchParam.min
       var patchNorm = (patchValue - patchParam.min) / range
       var targetNorm = (targetValue - patchParam.min) / range
-      var error = Math.pow(patchNorm - targetNorm, 2)
-      //log('error: ', error)
+      var error = Math.abs(patchNorm - targetNorm)
       totalError += error
     }
     if (targetState == 2) {
       targetParam.lock()
     }
   }
-  return totalError
+  return Math.max(100 - 100*totalError, 0)
 }
