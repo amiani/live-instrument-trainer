@@ -26,6 +26,8 @@ function init() {
 	this.checkPatch = function() {
 		var perc = evaluate(patch, target, groups.get("group1"))
 		percComment.set(perc)
+		target.hidden = false
+		targetCollapsed.set('is_collapsed', 0)
 	}
 
 	this.anything = function() {
@@ -36,6 +38,7 @@ function init() {
 	this.setGroup = function() {
 		var group = groups.get('group1')
 		var names = group.map(function(g) { return g.get('name') })
+		target.hidden = true
 		target.setParams(group)
 		patch.lockAllExcept(names)
 	}
@@ -58,7 +61,7 @@ function init() {
 	}
 
 	this.handleTargetCollapsed = function(args) {
-		if (args[0] === 'is_collapsed' && args[1] === 0) {
+		if (target.hidden === true && args[0] === 'is_collapsed' && args[1] === 0) {
 			defer['anything']('collapseTarget')
 		}
 	}

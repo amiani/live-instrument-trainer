@@ -4,6 +4,7 @@ const DeviceParameter = require('DeviceParameter').DeviceParameter
 exports.Device = function(live, devicePath, remotes) {
   this.live = live
   this.remotes = remotes
+  this.hidden = false
   this.devicePath = devicePath
   this.paramsPath = joinPaths(devicePath, 'parameters')
   this.params = {}
