@@ -12,13 +12,7 @@ outlets = 2
 var checkButton = this.patcher.getnamed('checkButton')
 var percComment = this.patcher.getnamed('percComment')
 
-function loadbang() {
-	//log('loadbang')
-	//run()
-}
-
-function run() {
-	//
+function init() {
 	var patchRemotes = []
 	var targetRemotes = []
 	for (var i = 0; i != 195; i++) {
@@ -64,11 +58,17 @@ function run() {
 	this.writeParams = function() {
 		service.message('params', 'params')
 	}
+
+	this.resetOscB = function() {
+		this.setGroup()
+	}
+
+	service.message('loadGroup')
 }
 
 function handleTargetCollapsed(args) {
 	if (args[0] === 'is_collapsed' && args[1] === 0) {
-		//defer['anything']('collapseTarget', 'hi', 'hello')
+		defer['anything']('collapseTarget', 'hi', 'hello')
 	}
 }
 
