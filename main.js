@@ -37,8 +37,11 @@ function init() {
 	var groups = new Dict("groups")
 	this.setGroup = function() {
 		var group = groups.get('group1')
-		var names = group.map(function(g) { return g.get('name') })
+		var names = group
+			.filter(function(g) { return !g.get("isLocked") })
+			.map(function(g) { return g.get("name") })
 		target.hidden = true
+		defer['anything']()
 		target.setParams(group)
 		patch.lockAllExcept(names)
 	}
@@ -71,7 +74,6 @@ function init() {
 
 	service.message('loadGroup')
 }
-
 
 this.createRemotes = function() {
 	for (var i = 0; i != 195; i++) {
