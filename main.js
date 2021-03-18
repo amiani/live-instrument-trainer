@@ -35,8 +35,9 @@ function init() {
 	}
 
 	var groups = new Dict("groups")
+	var groupName = 'groupB'
 	this.setGroup = function() {
-		var group = groups.get('groupB')
+		var group = groups.get(groupName)
 		var names = group
 			.filter(function(g) { return !g.get("isLocked") })
 			.map(function(g) { return g.get("name") })
@@ -61,6 +62,12 @@ function init() {
 
 	this.resetOscB = function() {
 		this.setGroup()
+	}
+
+	var groupIndex = ['groupB', 'groupAB']
+	this.selectGroup = function() {
+		groupName = groupIndex[arguments[0]]
+		log(groupName)
 	}
 
 	this.handleTargetCollapsed = function(args) {
