@@ -1,35 +1,36 @@
 {
   "group1": [
     {
-      "name": "Algorithm",
-      "action": "reset"
-    },
-    {
       "name": "Osc-A On",
-      "action": "reset"
+      "action": "reset",
+      "isLocked": "true"
     },
     {
       "name": "Osc-B On",
       "action": "set",
-      "value": 1
+      "value": 1,
+      "isLocked": false
     },
     {
       "name": "Osc-B Level",
       "action": "set_random",
       "min": 0.75,
-      "max": 1
+      "max": 1,
+      "isLocked": false
     },
     {
       "name": "B Coarse",
       "action": "set_random",
       "min": 0,
-      "max": 9
+      "max": 9,
+      "isLocked": false
     },
     {
       "name": "B Fine",
       "action": "set_random",
       "min": 0,
-      "max": 1
+      "max": 1000,
+      "isLocked": false
     }
   ]
 }
