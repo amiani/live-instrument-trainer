@@ -36,7 +36,7 @@ function init() {
 
 	var groups = new Dict("groups")
 	this.setGroup = function() {
-		var group = groups.get('group1')
+		var group = groups.get('groupB')
 		var names = group
 			.filter(function(g) { return !g.get("isLocked") })
 			.map(function(g) { return g.get("name") })
