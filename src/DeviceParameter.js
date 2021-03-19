@@ -1,4 +1,4 @@
-exports.DeviceParameter = function(live, path, remote) {
+export default function(live, path, remote) {
   this.live = live
   this.live.goto(path)
   this.id = this.live.id

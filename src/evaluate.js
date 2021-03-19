@@ -1,6 +1,4 @@
-//var log = require('log').log(post)
-
-exports.evaluate = function(patch, target, group) {
+export default function(patch, target, group) {
   var totalError = 0
   for (var i = 0; i != group.length; i++) {
     var name = group[i].get('name')

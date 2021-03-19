@@ -1,4 +1,4 @@
-exports.log = function(post) {
+export default function(post) {
   return function() {
     this.post = post
     for(var i = 0, len = arguments.length; i < len; i++) {

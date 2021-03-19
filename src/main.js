@@ -1,9 +1,10 @@
-var log = require("log").log(post)
-var joinPaths = require("joinPaths").joinPaths
-var Device = require("Device").Device
-var evaluate = require("evaluate").evaluate
+import logger from './log'
+var log = logger(post)
+import joinPaths from './joinPaths'
+import Device from './Device'
+import evaluate from './evaluate'
 
-function init() {
+this.init = function() {
 	log('initializing')
 	var service = this.patcher.getnamed("service")
 	var defer = this.patcher.getnamed('deferrer')

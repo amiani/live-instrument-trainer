@@ -1,7 +1,7 @@
-const joinPaths = require('joinPaths').joinPaths
-const DeviceParameter = require('DeviceParameter').DeviceParameter
+import joinPaths from './joinPaths'
+import DeviceParameter from './DeviceParameter'
 
-exports.Device = function(live, devicePath, remotes) {
+export default function(live, devicePath, remotes) {
   this.live = live
   this.remotes = remotes
   this.hidden = false
