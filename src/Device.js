@@ -24,7 +24,7 @@ exports.Device = function(live, devicePath, remotes) {
   }
   this.getParams()
 
-  this.resetParams = function() {
+  this.resetAll = function() {
     Object.keys(this.params).forEach(function(name) {
       var p = this.params[name]
       this.live.goto(p.path)
@@ -34,7 +34,7 @@ exports.Device = function(live, devicePath, remotes) {
 
   this.setParams = function(group) {
     this.unlockAll()
-    this.resetParams()
+    this.resetAll()
 
     for (var i  = 0; i != group.length; i++) {
       var name = group[i].get('name')

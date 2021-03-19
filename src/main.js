@@ -38,7 +38,6 @@ function init() {
 	var groups = new Dict("groups")
 	var groupName = 'groupB'
 	this.setGroup = function() {
-		//var group = groups.get(groupName)
 		activeGroup = groups.get(groupName)
 		var names = activeGroup
 			.filter(function(g) { return !g.get("isLocked") })
@@ -46,6 +45,7 @@ function init() {
 		target.hidden = true
 		defer['anything']()
 		target.setParams(activeGroup)
+		patch.unlockAll()
 		patch.resetAll()
 		patch.lockAllExcept(names)
 	}

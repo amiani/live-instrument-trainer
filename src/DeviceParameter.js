@@ -25,12 +25,14 @@ exports.DeviceParameter = function(live, path, remote) {
     return this.live.get('state')
   }
 
+  this.locked = false
   this.lock = function() {
     this.remote['id'](this.id)
-    //this.remote['float'](this.reset_value)
+    this.locked = true
   }
 
   this.unlock = function() {
     this.remote['id'](0)
+    this.locked = false
   }
 }
