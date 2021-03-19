@@ -85,4 +85,4 @@ this.init = function() {
 	targetCollapsed.property = 'is_collapsed'
 
 	service.message('loadGroup')
-}
+}.bind(this)
