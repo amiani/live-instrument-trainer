@@ -23,8 +23,9 @@ function init() {
 	var target = new Device(live, targetPath, targetRemotes)
 
 
+	var activeGroup
 	this.checkPatch = function() {
-		var perc = evaluate(patch, target, groups.get("group1"))
+		var perc = evaluate(patch, target, activeGroup)
 		percComment.set(perc)
 		target.hidden = false
 		targetCollapsed.set('is_collapsed', 0)
@@ -37,13 +38,14 @@ function init() {
 	var groups = new Dict("groups")
 	var groupName = 'groupB'
 	this.setGroup = function() {
-		var group = groups.get(groupName)
-		var names = group
+		//var group = groups.get(groupName)
+		activeGroup = groups.get(groupName)
+		var names = activeGroup
 			.filter(function(g) { return !g.get("isLocked") })
 			.map(function(g) { return g.get("name") })
 		target.hidden = true
 		defer['anything']()
-		target.setParams(group)
+		target.setParams(activeGroup)
 		patch.lockAllExcept(names)
 	}
 
@@ -60,13 +62,14 @@ function init() {
 		service.message('params', 'params')
 	}
 
-	this.resetOscB = function() {
+	this.newPuzzle = function() {
 		this.setGroup()
 	}
 
 	var groupIndex = ['groupB', 'groupAB']
 	this.selectGroup = function() {
 		groupName = groupIndex[arguments[0]]
+		activeGroup = groups.get(groupName)
 		log(groupName)
 	}
 
@@ -80,13 +83,4 @@ function init() {
 	targetCollapsed.property = 'is_collapsed'
 
 	service.message('loadGroup')
-}
-
-this.createRemotes = function() {
-	for (var i = 0; i != 195; i++) {
-		var patchRemote = this.patcher.newdefault(100, 200, 'live.remote~')
-		var targetRemote = this.patcher.newdefault(100, 200, 'live.remote~')
-		patchRemote.varname = 'patchRemote' + i
-		targetRemote.varname = 'targetRemote' + i
-	}
 }
