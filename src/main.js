@@ -46,6 +46,7 @@ function init() {
 		target.hidden = true
 		defer['anything']()
 		target.setParams(activeGroup)
+		patch.resetAll()
 		patch.lockAllExcept(names)
 	}
 

@@ -1,9 +1,9 @@
 {
   "Device On": {
-    "path": "this_device canonical_parent devices 1 parameters 0",
-    "name": [
-      "Device On"
-    ],
+    "live": {},
+    "id": "619",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 0",
+    "name": "Device On",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -16,10 +16,10 @@
     ]
   },
   "Algorithm": {
-    "path": "this_device canonical_parent devices 1 parameters 1",
-    "name": [
-      "Algorithm"
-    ],
+    "live": {},
+    "id": "620",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 1",
+    "name": "Algorithm",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -32,10 +32,10 @@
     ]
   },
   "Transpose": {
-    "path": "this_device canonical_parent devices 1 parameters 2",
-    "name": [
-      "Transpose"
-    ],
+    "live": {},
+    "id": "621",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 2",
+    "name": "Transpose",
     "is_quantized": 0,
     "default_value": [
       0
@@ -51,10 +51,10 @@
     ]
   },
   "PB Range": {
-    "path": "this_device canonical_parent devices 1 parameters 3",
-    "name": [
-      "PB Range"
-    ],
+    "live": {},
+    "id": "622",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 3",
+    "name": "PB Range",
     "is_quantized": 0,
     "default_value": [
       5
@@ -70,10 +70,10 @@
     ]
   },
   "Volume": {
-    "path": "this_device canonical_parent devices 1 parameters 4",
-    "name": [
-      "Volume"
-    ],
+    "live": {},
+    "id": "623",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 4",
+    "name": "Volume",
     "is_quantized": 0,
     "default_value": [
       0.549999892711639
@@ -89,10 +89,10 @@
     ]
   },
   "Panorama": {
-    "path": "this_device canonical_parent devices 1 parameters 5",
-    "name": [
-      "Panorama"
-    ],
+    "live": {},
+    "id": "624",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 5",
+    "name": "Panorama",
     "is_quantized": 0,
     "default_value": [
       0
@@ -108,10 +108,10 @@
     ]
   },
   "Pan < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 6",
-    "name": [
-      "Pan < Key"
-    ],
+    "live": {},
+    "id": "625",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 6",
+    "name": "Pan < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -127,10 +127,10 @@
     ]
   },
   "Pan < Rnd": {
-    "path": "this_device canonical_parent devices 1 parameters 7",
-    "name": [
-      "Pan < Rnd"
-    ],
+    "live": {},
+    "id": "626",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 7",
+    "name": "Pan < Rnd",
     "is_quantized": 0,
     "default_value": [
       0
@@ -146,10 +146,10 @@
     ]
   },
   "Tone": {
-    "path": "this_device canonical_parent devices 1 parameters 8",
-    "name": [
-      "Tone"
-    ],
+    "live": {},
+    "id": "627",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 8",
+    "name": "Tone",
     "is_quantized": 0,
     "default_value": [
       0.699999988079071
@@ -165,10 +165,10 @@
     ]
   },
   "Spread": {
-    "path": "this_device canonical_parent devices 1 parameters 9",
-    "name": [
-      "Spread"
-    ],
+    "live": {},
+    "id": "628",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 9",
+    "name": "Spread",
     "is_quantized": 0,
     "default_value": [
       0
@@ -184,10 +184,10 @@
     ]
   },
   "Glide On": {
-    "path": "this_device canonical_parent devices 1 parameters 10",
-    "name": [
-      "Glide On"
-    ],
+    "live": {},
+    "id": "629",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 10",
+    "name": "Glide On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -200,10 +200,11 @@
     ]
   },
   "Glide Time": {
-    "path": "this_device canonical_parent devices 1 parameters 11",
-    "name": [
-      "Glide Time"
-    ],
+    "live": {},
+    "id": "630",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 11",
+    "name": "Glide Time",
+    "parent_name": "Glide On",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -219,10 +220,10 @@
     ]
   },
   "Osc-A On": {
-    "path": "this_device canonical_parent devices 1 parameters 12",
-    "name": [
-      "Osc-A On"
-    ],
+    "live": {},
+    "id": "631",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 12",
+    "name": "Osc-A On",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -235,10 +236,11 @@
     ]
   },
   "A Coarse": {
-    "path": "this_device canonical_parent devices 1 parameters 13",
-    "name": [
-      "A Coarse"
-    ],
+    "live": {},
+    "id": "632",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 13",
+    "name": "A Coarse",
+    "parent_name": "Osc-A On",
     "is_quantized": 0,
     "default_value": [
       1
@@ -254,10 +256,11 @@
     ]
   },
   "A Fine": {
-    "path": "this_device canonical_parent devices 1 parameters 14",
-    "name": [
-      "A Fine"
-    ],
+    "live": {},
+    "id": "633",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 14",
+    "name": "A Fine",
+    "parent_name": "Osc-A On",
     "is_quantized": 0,
     "default_value": [
       0
@@ -273,10 +276,11 @@
     ]
   },
   "A Freq<Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 15",
-    "name": [
-      "A Freq<Vel"
-    ],
+    "live": {},
+    "id": "634",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 15",
+    "name": "A Freq<Vel",
+    "parent_name": "Osc-A On",
     "is_quantized": 0,
     "default_value": [
       0
@@ -292,10 +296,11 @@
     ]
   },
   "A Quantize": {
-    "path": "this_device canonical_parent devices 1 parameters 16",
-    "name": [
-      "A Quantize"
-    ],
+    "live": {},
+    "id": "635",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 16",
+    "name": "A Quantize",
+    "parent_name": "Osc-A On",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -308,10 +313,10 @@
     ]
   },
   "A Fix On ": {
-    "path": "this_device canonical_parent devices 1 parameters 17",
-    "name": [
-      "A Fix On "
-    ],
+    "live": {},
+    "id": "636",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 17",
+    "name": "A Fix On ",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -324,10 +329,10 @@
     ]
   },
   "A Fix Freq": {
-    "path": "this_device canonical_parent devices 1 parameters 18",
-    "name": [
-      "A Fix Freq"
-    ],
+    "live": {},
+    "id": "637",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 18",
+    "name": "A Fix Freq",
     "is_quantized": 0,
     "default_value": [
       0.434587985277176
@@ -343,10 +348,10 @@
     ]
   },
   "A Fix Freq Mul": {
-    "path": "this_device canonical_parent devices 1 parameters 19",
-    "name": [
-      "A Fix Freq Mul"
-    ],
+    "live": {},
+    "id": "638",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 19",
+    "name": "A Fix Freq Mul",
     "is_quantized": 0,
     "default_value": [
       4
@@ -362,10 +367,10 @@
     ]
   },
   "Osc-A Level": {
-    "path": "this_device canonical_parent devices 1 parameters 20",
-    "name": [
-      "Osc-A Level"
-    ],
+    "live": {},
+    "id": "639",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 20",
+    "name": "Osc-A Level",
     "is_quantized": 0,
     "default_value": [
       1
@@ -381,10 +386,10 @@
     ]
   },
   "Osc-A Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 21",
-    "name": [
-      "Osc-A Retrig"
-    ],
+    "live": {},
+    "id": "640",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 21",
+    "name": "Osc-A Retrig",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -397,10 +402,10 @@
     ]
   },
   "Osc-A Phase": {
-    "path": "this_device canonical_parent devices 1 parameters 22",
-    "name": [
-      "Osc-A Phase"
-    ],
+    "live": {},
+    "id": "641",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 22",
+    "name": "Osc-A Phase",
     "is_quantized": 0,
     "default_value": [
       0
@@ -416,16 +421,16 @@
     ]
   },
   "Osc-A Lev < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 23",
-    "name": [
-      "Osc-A Lev < Vel"
-    ],
+    "live": {},
+    "id": "642",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 23",
+    "name": "Osc-A Lev < Vel",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      50
     ],
     "min": [
       -100
@@ -435,10 +440,10 @@
     ]
   },
   "Osc-A Lev < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 24",
-    "name": [
-      "Osc-A Lev < Key"
-    ],
+    "live": {},
+    "id": "643",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 24",
+    "name": "Osc-A Lev < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -454,10 +459,10 @@
     ]
   },
   "Osc-A Wave": {
-    "path": "this_device canonical_parent devices 1 parameters 25",
-    "name": [
-      "Osc-A Wave"
-    ],
+    "live": {},
+    "id": "644",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 25",
+    "name": "Osc-A Wave",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -470,10 +475,10 @@
     ]
   },
   "Osc-A Feedb": {
-    "path": "this_device canonical_parent devices 1 parameters 26",
-    "name": [
-      "Osc-A Feedb"
-    ],
+    "live": {},
+    "id": "645",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 26",
+    "name": "Osc-A Feedb",
     "is_quantized": 0,
     "default_value": [
       0
@@ -489,10 +494,10 @@
     ]
   },
   "Osc-A < Pe": {
-    "path": "this_device canonical_parent devices 1 parameters 27",
-    "name": [
-      "Osc-A < Pe"
-    ],
+    "live": {},
+    "id": "646",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 27",
+    "name": "Osc-A < Pe",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -505,10 +510,10 @@
     ]
   },
   "Osc-A < LFO": {
-    "path": "this_device canonical_parent devices 1 parameters 28",
-    "name": [
-      "Osc-A < LFO"
-    ],
+    "live": {},
+    "id": "647",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 28",
+    "name": "Osc-A < LFO",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -521,10 +526,10 @@
     ]
   },
   "Ae Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 29",
-    "name": [
-      "Ae Attack"
-    ],
+    "live": {},
+    "id": "648",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 29",
+    "name": "Ae Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -540,10 +545,10 @@
     ]
   },
   "Ae Init": {
-    "path": "this_device canonical_parent devices 1 parameters 30",
-    "name": [
-      "Ae Init"
-    ],
+    "live": {},
+    "id": "649",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 30",
+    "name": "Ae Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -559,16 +564,16 @@
     ]
   },
   "Ae Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 31",
-    "name": [
-      "Ae Decay"
-    ],
+    "live": {},
+    "id": "650",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 31",
+    "name": "Ae Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
     ],
     "reset_value": [
-      0.581428050994873
+      0.963146567344666
     ],
     "min": [
       0
@@ -578,10 +583,10 @@
     ]
   },
   "Ae Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 32",
-    "name": [
-      "Ae Peak"
-    ],
+    "live": {},
+    "id": "651",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 32",
+    "name": "Ae Peak",
     "is_quantized": 0,
     "default_value": [
       1
@@ -597,10 +602,10 @@
     ]
   },
   "Ae Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 33",
-    "name": [
-      "Ae Sustain"
-    ],
+    "live": {},
+    "id": "652",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 33",
+    "name": "Ae Sustain",
     "is_quantized": 0,
     "default_value": [
       1
@@ -616,16 +621,16 @@
     ]
   },
   "Ae Release": {
-    "path": "this_device canonical_parent devices 1 parameters 34",
-    "name": [
-      "Ae Release"
-    ],
+    "live": {},
+    "id": "653",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 34",
+    "name": "Ae Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
     ],
     "reset_value": [
-      0.355570584535599
+      0.544574618339539
     ],
     "min": [
       0
@@ -635,10 +640,10 @@
     ]
   },
   "Ae Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 35",
-    "name": [
-      "Ae Mode"
-    ],
+    "live": {},
+    "id": "654",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 35",
+    "name": "Ae Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -651,10 +656,10 @@
     ]
   },
   "Ae Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 36",
-    "name": [
-      "Ae Loop"
-    ],
+    "live": {},
+    "id": "655",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 36",
+    "name": "Ae Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -670,10 +675,10 @@
     ]
   },
   "Ae Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 37",
-    "name": [
-      "Ae Retrig"
-    ],
+    "live": {},
+    "id": "656",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 37",
+    "name": "Ae Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -689,10 +694,10 @@
     ]
   },
   "Ae R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 38",
-    "name": [
-      "Ae R < Vel"
-    ],
+    "live": {},
+    "id": "657",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 38",
+    "name": "Ae R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -708,10 +713,10 @@
     ]
   },
   "Osc-B On": {
-    "path": "this_device canonical_parent devices 1 parameters 39",
-    "name": [
-      "Osc-B On"
-    ],
+    "live": {},
+    "id": "658",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 39",
+    "name": "Osc-B On",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -724,16 +729,16 @@
     ]
   },
   "B Coarse": {
-    "path": "this_device canonical_parent devices 1 parameters 40",
-    "name": [
-      "B Coarse"
-    ],
+    "live": {},
+    "id": "659",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 40",
+    "name": "B Coarse",
     "is_quantized": 0,
     "default_value": [
       1
     ],
     "reset_value": [
-      7
+      5
     ],
     "min": [
       0
@@ -743,16 +748,16 @@
     ]
   },
   "B Fine": {
-    "path": "this_device canonical_parent devices 1 parameters 41",
-    "name": [
-      "B Fine"
-    ],
+    "live": {},
+    "id": "616",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 41",
+    "name": "B Fine",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      686
     ],
     "min": [
       0
@@ -762,10 +767,10 @@
     ]
   },
   "B Freq<Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 42",
-    "name": [
-      "B Freq<Vel"
-    ],
+    "live": {},
+    "id": "660",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 42",
+    "name": "B Freq<Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -781,10 +786,10 @@
     ]
   },
   "B Quantize": {
-    "path": "this_device canonical_parent devices 1 parameters 43",
-    "name": [
-      "B Quantize"
-    ],
+    "live": {},
+    "id": "661",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 43",
+    "name": "B Quantize",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -797,10 +802,10 @@
     ]
   },
   "B Fix On ": {
-    "path": "this_device canonical_parent devices 1 parameters 44",
-    "name": [
-      "B Fix On "
-    ],
+    "live": {},
+    "id": "662",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 44",
+    "name": "B Fix On ",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -813,10 +818,10 @@
     ]
   },
   "B Fix Freq": {
-    "path": "this_device canonical_parent devices 1 parameters 45",
-    "name": [
-      "B Fix Freq"
-    ],
+    "live": {},
+    "id": "663",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 45",
+    "name": "B Fix Freq",
     "is_quantized": 0,
     "default_value": [
       0.434587985277176
@@ -832,10 +837,10 @@
     ]
   },
   "B Fix Freq Mul": {
-    "path": "this_device canonical_parent devices 1 parameters 46",
-    "name": [
-      "B Fix Freq Mul"
-    ],
+    "live": {},
+    "id": "664",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 46",
+    "name": "B Fix Freq Mul",
     "is_quantized": 0,
     "default_value": [
       4
@@ -851,16 +856,16 @@
     ]
   },
   "Osc-B Level": {
-    "path": "this_device canonical_parent devices 1 parameters 47",
-    "name": [
-      "Osc-B Level"
-    ],
+    "live": {},
+    "id": "665",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 47",
+    "name": "Osc-B Level",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      1
+      0.877240419387817
     ],
     "min": [
       0
@@ -870,10 +875,10 @@
     ]
   },
   "Osc-B Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 48",
-    "name": [
-      "Osc-B Retrig"
-    ],
+    "live": {},
+    "id": "666",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 48",
+    "name": "Osc-B Retrig",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -886,10 +891,10 @@
     ]
   },
   "Osc-B Phase": {
-    "path": "this_device canonical_parent devices 1 parameters 49",
-    "name": [
-      "Osc-B Phase"
-    ],
+    "live": {},
+    "id": "667",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 49",
+    "name": "Osc-B Phase",
     "is_quantized": 0,
     "default_value": [
       0
@@ -905,16 +910,16 @@
     ]
   },
   "Osc-B Lev < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 50",
-    "name": [
-      "Osc-B Lev < Vel"
-    ],
+    "live": {},
+    "id": "668",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 50",
+    "name": "Osc-B Lev < Vel",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      50
     ],
     "min": [
       -100
@@ -924,10 +929,10 @@
     ]
   },
   "Osc-B Lev < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 51",
-    "name": [
-      "Osc-B Lev < Key"
-    ],
+    "live": {},
+    "id": "669",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 51",
+    "name": "Osc-B Lev < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -943,10 +948,10 @@
     ]
   },
   "Osc-B Wave": {
-    "path": "this_device canonical_parent devices 1 parameters 52",
-    "name": [
-      "Osc-B Wave"
-    ],
+    "live": {},
+    "id": "670",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 52",
+    "name": "Osc-B Wave",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -959,10 +964,10 @@
     ]
   },
   "Osc-B Feedb": {
-    "path": "this_device canonical_parent devices 1 parameters 53",
-    "name": [
-      "Osc-B Feedb"
-    ],
+    "live": {},
+    "id": "671",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 53",
+    "name": "Osc-B Feedb",
     "is_quantized": 0,
     "default_value": [
       0
@@ -978,10 +983,10 @@
     ]
   },
   "Osc-B < Pe": {
-    "path": "this_device canonical_parent devices 1 parameters 54",
-    "name": [
-      "Osc-B < Pe"
-    ],
+    "live": {},
+    "id": "672",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 54",
+    "name": "Osc-B < Pe",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -994,10 +999,10 @@
     ]
   },
   "Osc-B < LFO": {
-    "path": "this_device canonical_parent devices 1 parameters 55",
-    "name": [
-      "Osc-B < LFO"
-    ],
+    "live": {},
+    "id": "673",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 55",
+    "name": "Osc-B < LFO",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1010,10 +1015,10 @@
     ]
   },
   "Be Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 56",
-    "name": [
-      "Be Attack"
-    ],
+    "live": {},
+    "id": "674",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 56",
+    "name": "Be Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1029,10 +1034,10 @@
     ]
   },
   "Be Init": {
-    "path": "this_device canonical_parent devices 1 parameters 57",
-    "name": [
-      "Be Init"
-    ],
+    "live": {},
+    "id": "675",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 57",
+    "name": "Be Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1048,16 +1053,16 @@
     ]
   },
   "Be Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 58",
-    "name": [
-      "Be Decay"
-    ],
+    "live": {},
+    "id": "676",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 58",
+    "name": "Be Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
     ],
     "reset_value": [
-      0.581428050994873
+      0.544574618339539
     ],
     "min": [
       0
@@ -1067,10 +1072,10 @@
     ]
   },
   "Be Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 59",
-    "name": [
-      "Be Peak"
-    ],
+    "live": {},
+    "id": "677",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 59",
+    "name": "Be Peak",
     "is_quantized": 0,
     "default_value": [
       1
@@ -1086,16 +1091,16 @@
     ]
   },
   "Be Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 60",
-    "name": [
-      "Be Sustain"
-    ],
+    "live": {},
+    "id": "678",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 60",
+    "name": "Be Sustain",
     "is_quantized": 0,
     "default_value": [
       1
     ],
     "reset_value": [
-      1
+      0.302414149045944
     ],
     "min": [
       0
@@ -1105,10 +1110,10 @@
     ]
   },
   "Be Release": {
-    "path": "this_device canonical_parent devices 1 parameters 61",
-    "name": [
-      "Be Release"
-    ],
+    "live": {},
+    "id": "679",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 61",
+    "name": "Be Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -1124,10 +1129,10 @@
     ]
   },
   "Be Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 62",
-    "name": [
-      "Be Mode"
-    ],
+    "live": {},
+    "id": "680",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 62",
+    "name": "Be Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1140,10 +1145,10 @@
     ]
   },
   "Be Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 63",
-    "name": [
-      "Be Loop"
-    ],
+    "live": {},
+    "id": "681",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 63",
+    "name": "Be Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -1159,10 +1164,10 @@
     ]
   },
   "Be Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 64",
-    "name": [
-      "Be Retrig"
-    ],
+    "live": {},
+    "id": "682",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 64",
+    "name": "Be Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -1178,10 +1183,10 @@
     ]
   },
   "Be R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 65",
-    "name": [
-      "Be R < Vel"
-    ],
+    "live": {},
+    "id": "683",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 65",
+    "name": "Be R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1197,10 +1202,10 @@
     ]
   },
   "Osc-C On": {
-    "path": "this_device canonical_parent devices 1 parameters 66",
-    "name": [
-      "Osc-C On"
-    ],
+    "live": {},
+    "id": "684",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 66",
+    "name": "Osc-C On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1213,10 +1218,10 @@
     ]
   },
   "C Coarse": {
-    "path": "this_device canonical_parent devices 1 parameters 67",
-    "name": [
-      "C Coarse"
-    ],
+    "live": {},
+    "id": "685",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 67",
+    "name": "C Coarse",
     "is_quantized": 0,
     "default_value": [
       1
@@ -1232,10 +1237,10 @@
     ]
   },
   "C Fine": {
-    "path": "this_device canonical_parent devices 1 parameters 68",
-    "name": [
-      "C Fine"
-    ],
+    "live": {},
+    "id": "686",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 68",
+    "name": "C Fine",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1251,10 +1256,10 @@
     ]
   },
   "C Freq<Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 69",
-    "name": [
-      "C Freq<Vel"
-    ],
+    "live": {},
+    "id": "687",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 69",
+    "name": "C Freq<Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1270,10 +1275,10 @@
     ]
   },
   "C Quantize": {
-    "path": "this_device canonical_parent devices 1 parameters 70",
-    "name": [
-      "C Quantize"
-    ],
+    "live": {},
+    "id": "688",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 70",
+    "name": "C Quantize",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1286,10 +1291,10 @@
     ]
   },
   "C Fix On ": {
-    "path": "this_device canonical_parent devices 1 parameters 71",
-    "name": [
-      "C Fix On "
-    ],
+    "live": {},
+    "id": "689",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 71",
+    "name": "C Fix On ",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1302,10 +1307,10 @@
     ]
   },
   "C Fix Freq": {
-    "path": "this_device canonical_parent devices 1 parameters 72",
-    "name": [
-      "C Fix Freq"
-    ],
+    "live": {},
+    "id": "690",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 72",
+    "name": "C Fix Freq",
     "is_quantized": 0,
     "default_value": [
       0.434587985277176
@@ -1321,10 +1326,10 @@
     ]
   },
   "C Fix Freq Mul": {
-    "path": "this_device canonical_parent devices 1 parameters 73",
-    "name": [
-      "C Fix Freq Mul"
-    ],
+    "live": {},
+    "id": "691",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 73",
+    "name": "C Fix Freq Mul",
     "is_quantized": 0,
     "default_value": [
       4
@@ -1340,10 +1345,10 @@
     ]
   },
   "Osc-C Level": {
-    "path": "this_device canonical_parent devices 1 parameters 74",
-    "name": [
-      "Osc-C Level"
-    ],
+    "live": {},
+    "id": "692",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 74",
+    "name": "Osc-C Level",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1359,10 +1364,10 @@
     ]
   },
   "Osc-C Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 75",
-    "name": [
-      "Osc-C Retrig"
-    ],
+    "live": {},
+    "id": "693",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 75",
+    "name": "Osc-C Retrig",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1375,10 +1380,10 @@
     ]
   },
   "Osc-C Phase": {
-    "path": "this_device canonical_parent devices 1 parameters 76",
-    "name": [
-      "Osc-C Phase"
-    ],
+    "live": {},
+    "id": "694",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 76",
+    "name": "Osc-C Phase",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1394,16 +1399,16 @@
     ]
   },
   "Osc-C Lev < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 77",
-    "name": [
-      "Osc-C Lev < Vel"
-    ],
+    "live": {},
+    "id": "695",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 77",
+    "name": "Osc-C Lev < Vel",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      50
     ],
     "min": [
       -100
@@ -1413,10 +1418,10 @@
     ]
   },
   "Osc-C Lev < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 78",
-    "name": [
-      "Osc-C Lev < Key"
-    ],
+    "live": {},
+    "id": "696",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 78",
+    "name": "Osc-C Lev < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1432,10 +1437,10 @@
     ]
   },
   "Osc-C Wave": {
-    "path": "this_device canonical_parent devices 1 parameters 79",
-    "name": [
-      "Osc-C Wave"
-    ],
+    "live": {},
+    "id": "697",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 79",
+    "name": "Osc-C Wave",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1448,10 +1453,10 @@
     ]
   },
   "Osc-C Feedb": {
-    "path": "this_device canonical_parent devices 1 parameters 80",
-    "name": [
-      "Osc-C Feedb"
-    ],
+    "live": {},
+    "id": "698",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 80",
+    "name": "Osc-C Feedb",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1467,10 +1472,10 @@
     ]
   },
   "Osc-C < Pe": {
-    "path": "this_device canonical_parent devices 1 parameters 81",
-    "name": [
-      "Osc-C < Pe"
-    ],
+    "live": {},
+    "id": "699",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 81",
+    "name": "Osc-C < Pe",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1483,10 +1488,10 @@
     ]
   },
   "Osc-C < LFO": {
-    "path": "this_device canonical_parent devices 1 parameters 82",
-    "name": [
-      "Osc-C < LFO"
-    ],
+    "live": {},
+    "id": "700",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 82",
+    "name": "Osc-C < LFO",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1499,10 +1504,10 @@
     ]
   },
   "Ce Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 83",
-    "name": [
-      "Ce Attack"
-    ],
+    "live": {},
+    "id": "701",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 83",
+    "name": "Ce Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1518,10 +1523,10 @@
     ]
   },
   "Ce Init": {
-    "path": "this_device canonical_parent devices 1 parameters 84",
-    "name": [
-      "Ce Init"
-    ],
+    "live": {},
+    "id": "702",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 84",
+    "name": "Ce Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1537,16 +1542,16 @@
     ]
   },
   "Ce Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 85",
-    "name": [
-      "Ce Decay"
-    ],
+    "live": {},
+    "id": "703",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 85",
+    "name": "Ce Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
     ],
     "reset_value": [
-      0.581428050994873
+      0.544574618339539
     ],
     "min": [
       0
@@ -1556,10 +1561,10 @@
     ]
   },
   "Ce Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 86",
-    "name": [
-      "Ce Peak"
-    ],
+    "live": {},
+    "id": "704",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 86",
+    "name": "Ce Peak",
     "is_quantized": 0,
     "default_value": [
       1
@@ -1575,16 +1580,16 @@
     ]
   },
   "Ce Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 87",
-    "name": [
-      "Ce Sustain"
-    ],
+    "live": {},
+    "id": "705",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 87",
+    "name": "Ce Sustain",
     "is_quantized": 0,
     "default_value": [
       1
     ],
     "reset_value": [
-      1
+      0.302414149045944
     ],
     "min": [
       0
@@ -1594,10 +1599,10 @@
     ]
   },
   "Ce Release": {
-    "path": "this_device canonical_parent devices 1 parameters 88",
-    "name": [
-      "Ce Release"
-    ],
+    "live": {},
+    "id": "706",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 88",
+    "name": "Ce Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -1613,10 +1618,10 @@
     ]
   },
   "Ce Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 89",
-    "name": [
-      "Ce Mode"
-    ],
+    "live": {},
+    "id": "707",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 89",
+    "name": "Ce Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1629,10 +1634,10 @@
     ]
   },
   "Ce Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 90",
-    "name": [
-      "Ce Loop"
-    ],
+    "live": {},
+    "id": "708",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 90",
+    "name": "Ce Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -1648,10 +1653,10 @@
     ]
   },
   "Ce Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 91",
-    "name": [
-      "Ce Retrig"
-    ],
+    "live": {},
+    "id": "709",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 91",
+    "name": "Ce Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -1667,10 +1672,10 @@
     ]
   },
   "Ce R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 92",
-    "name": [
-      "Ce R < Vel"
-    ],
+    "live": {},
+    "id": "710",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 92",
+    "name": "Ce R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1686,10 +1691,10 @@
     ]
   },
   "Osc-D On": {
-    "path": "this_device canonical_parent devices 1 parameters 93",
-    "name": [
-      "Osc-D On"
-    ],
+    "live": {},
+    "id": "711",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 93",
+    "name": "Osc-D On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1702,10 +1707,10 @@
     ]
   },
   "D Coarse": {
-    "path": "this_device canonical_parent devices 1 parameters 94",
-    "name": [
-      "D Coarse"
-    ],
+    "live": {},
+    "id": "712",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 94",
+    "name": "D Coarse",
     "is_quantized": 0,
     "default_value": [
       1
@@ -1721,10 +1726,10 @@
     ]
   },
   "D Fine": {
-    "path": "this_device canonical_parent devices 1 parameters 95",
-    "name": [
-      "D Fine"
-    ],
+    "live": {},
+    "id": "713",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 95",
+    "name": "D Fine",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1740,10 +1745,10 @@
     ]
   },
   "D Freq<Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 96",
-    "name": [
-      "D Freq<Vel"
-    ],
+    "live": {},
+    "id": "714",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 96",
+    "name": "D Freq<Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1759,10 +1764,10 @@
     ]
   },
   "D Quantize": {
-    "path": "this_device canonical_parent devices 1 parameters 97",
-    "name": [
-      "D Quantize"
-    ],
+    "live": {},
+    "id": "715",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 97",
+    "name": "D Quantize",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1775,10 +1780,10 @@
     ]
   },
   "D Fix On ": {
-    "path": "this_device canonical_parent devices 1 parameters 98",
-    "name": [
-      "D Fix On "
-    ],
+    "live": {},
+    "id": "716",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 98",
+    "name": "D Fix On ",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1791,10 +1796,10 @@
     ]
   },
   "D Fix Freq": {
-    "path": "this_device canonical_parent devices 1 parameters 99",
-    "name": [
-      "D Fix Freq"
-    ],
+    "live": {},
+    "id": "717",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 99",
+    "name": "D Fix Freq",
     "is_quantized": 0,
     "default_value": [
       0.434587985277176
@@ -1810,10 +1815,10 @@
     ]
   },
   "D Fix Freq Mul": {
-    "path": "this_device canonical_parent devices 1 parameters 100",
-    "name": [
-      "D Fix Freq Mul"
-    ],
+    "live": {},
+    "id": "718",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 100",
+    "name": "D Fix Freq Mul",
     "is_quantized": 0,
     "default_value": [
       4
@@ -1829,10 +1834,10 @@
     ]
   },
   "Osc-D Level": {
-    "path": "this_device canonical_parent devices 1 parameters 101",
-    "name": [
-      "Osc-D Level"
-    ],
+    "live": {},
+    "id": "719",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 101",
+    "name": "Osc-D Level",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1848,10 +1853,10 @@
     ]
   },
   "Osc-D Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 102",
-    "name": [
-      "Osc-D Retrig"
-    ],
+    "live": {},
+    "id": "720",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 102",
+    "name": "Osc-D Retrig",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1864,10 +1869,10 @@
     ]
   },
   "Osc-D Phase": {
-    "path": "this_device canonical_parent devices 1 parameters 103",
-    "name": [
-      "Osc-D Phase"
-    ],
+    "live": {},
+    "id": "721",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 103",
+    "name": "Osc-D Phase",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1883,16 +1888,16 @@
     ]
   },
   "Osc-D Lev < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 104",
-    "name": [
-      "Osc-D Lev < Vel"
-    ],
+    "live": {},
+    "id": "722",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 104",
+    "name": "Osc-D Lev < Vel",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      50
     ],
     "min": [
       -100
@@ -1902,10 +1907,10 @@
     ]
   },
   "Osc-D Lev < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 105",
-    "name": [
-      "Osc-D Lev < Key"
-    ],
+    "live": {},
+    "id": "723",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 105",
+    "name": "Osc-D Lev < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1921,10 +1926,10 @@
     ]
   },
   "Osc-D Wave": {
-    "path": "this_device canonical_parent devices 1 parameters 106",
-    "name": [
-      "Osc-D Wave"
-    ],
+    "live": {},
+    "id": "724",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 106",
+    "name": "Osc-D Wave",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -1937,10 +1942,10 @@
     ]
   },
   "Osc-D Feedb": {
-    "path": "this_device canonical_parent devices 1 parameters 107",
-    "name": [
-      "Osc-D Feedb"
-    ],
+    "live": {},
+    "id": "725",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 107",
+    "name": "Osc-D Feedb",
     "is_quantized": 0,
     "default_value": [
       0
@@ -1956,10 +1961,10 @@
     ]
   },
   "Osc-D < Pe": {
-    "path": "this_device canonical_parent devices 1 parameters 108",
-    "name": [
-      "Osc-D < Pe"
-    ],
+    "live": {},
+    "id": "726",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 108",
+    "name": "Osc-D < Pe",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1972,10 +1977,10 @@
     ]
   },
   "Osc-D < LFO": {
-    "path": "this_device canonical_parent devices 1 parameters 109",
-    "name": [
-      "Osc-D < LFO"
-    ],
+    "live": {},
+    "id": "727",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 109",
+    "name": "Osc-D < LFO",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -1988,10 +1993,10 @@
     ]
   },
   "De Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 110",
-    "name": [
-      "De Attack"
-    ],
+    "live": {},
+    "id": "728",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 110",
+    "name": "De Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2007,10 +2012,10 @@
     ]
   },
   "De Init": {
-    "path": "this_device canonical_parent devices 1 parameters 111",
-    "name": [
-      "De Init"
-    ],
+    "live": {},
+    "id": "729",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 111",
+    "name": "De Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2026,16 +2031,16 @@
     ]
   },
   "De Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 112",
-    "name": [
-      "De Decay"
-    ],
+    "live": {},
+    "id": "730",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 112",
+    "name": "De Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
     ],
     "reset_value": [
-      0.581428050994873
+      0.544574618339539
     ],
     "min": [
       0
@@ -2045,10 +2050,10 @@
     ]
   },
   "De Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 113",
-    "name": [
-      "De Peak"
-    ],
+    "live": {},
+    "id": "731",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 113",
+    "name": "De Peak",
     "is_quantized": 0,
     "default_value": [
       1
@@ -2064,16 +2069,16 @@
     ]
   },
   "De Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 114",
-    "name": [
-      "De Sustain"
-    ],
+    "live": {},
+    "id": "732",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 114",
+    "name": "De Sustain",
     "is_quantized": 0,
     "default_value": [
       1
     ],
     "reset_value": [
-      1
+      0.302414149045944
     ],
     "min": [
       0
@@ -2083,10 +2088,10 @@
     ]
   },
   "De Release": {
-    "path": "this_device canonical_parent devices 1 parameters 115",
-    "name": [
-      "De Release"
-    ],
+    "live": {},
+    "id": "733",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 115",
+    "name": "De Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -2102,10 +2107,10 @@
     ]
   },
   "De Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 116",
-    "name": [
-      "De Mode"
-    ],
+    "live": {},
+    "id": "734",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 116",
+    "name": "De Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2118,10 +2123,10 @@
     ]
   },
   "De Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 117",
-    "name": [
-      "De Loop"
-    ],
+    "live": {},
+    "id": "735",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 117",
+    "name": "De Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -2137,10 +2142,10 @@
     ]
   },
   "De Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 118",
-    "name": [
-      "De Retrig"
-    ],
+    "live": {},
+    "id": "736",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 118",
+    "name": "De Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -2156,10 +2161,10 @@
     ]
   },
   "De R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 119",
-    "name": [
-      "De R < Vel"
-    ],
+    "live": {},
+    "id": "737",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 119",
+    "name": "De R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2175,10 +2180,10 @@
     ]
   },
   "Time": {
-    "path": "this_device canonical_parent devices 1 parameters 120",
-    "name": [
-      "Time"
-    ],
+    "live": {},
+    "id": "738",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 120",
+    "name": "Time",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2194,10 +2199,10 @@
     ]
   },
   "Time < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 121",
-    "name": [
-      "Time < Key"
-    ],
+    "live": {},
+    "id": "739",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 121",
+    "name": "Time < Key",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2213,10 +2218,10 @@
     ]
   },
   "Pe On": {
-    "path": "this_device canonical_parent devices 1 parameters 122",
-    "name": [
-      "Pe On"
-    ],
+    "live": {},
+    "id": "740",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 122",
+    "name": "Pe On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2229,10 +2234,10 @@
     ]
   },
   "Pe Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 123",
-    "name": [
-      "Pe Attack"
-    ],
+    "live": {},
+    "id": "741",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 123",
+    "name": "Pe Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2248,10 +2253,10 @@
     ]
   },
   "Pe Init": {
-    "path": "this_device canonical_parent devices 1 parameters 124",
-    "name": [
-      "Pe Init"
-    ],
+    "live": {},
+    "id": "742",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 124",
+    "name": "Pe Init",
     "is_quantized": 0,
     "default_value": [
       12
@@ -2267,10 +2272,10 @@
     ]
   },
   "Pe A Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 125",
-    "name": [
-      "Pe A Slope"
-    ],
+    "live": {},
+    "id": "743",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 125",
+    "name": "Pe A Slope",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2286,16 +2291,16 @@
     ]
   },
   "Pe Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 126",
-    "name": [
-      "Pe Decay"
-    ],
+    "live": {},
+    "id": "744",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 126",
+    "name": "Pe Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
     ],
     "reset_value": [
-      0.581428050994873
+      0.56485652923584
     ],
     "min": [
       0
@@ -2305,10 +2310,10 @@
     ]
   },
   "Pe Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 127",
-    "name": [
-      "Pe Peak"
-    ],
+    "live": {},
+    "id": "745",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 127",
+    "name": "Pe Peak",
     "is_quantized": 0,
     "default_value": [
       12
@@ -2324,10 +2329,10 @@
     ]
   },
   "Pe D Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 128",
-    "name": [
-      "Pe D Slope"
-    ],
+    "live": {},
+    "id": "746",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 128",
+    "name": "Pe D Slope",
     "is_quantized": 0,
     "default_value": [
       1
@@ -2343,10 +2348,10 @@
     ]
   },
   "Pe Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 129",
-    "name": [
-      "Pe Sustain"
-    ],
+    "live": {},
+    "id": "747",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 129",
+    "name": "Pe Sustain",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2362,10 +2367,10 @@
     ]
   },
   "Pe Release": {
-    "path": "this_device canonical_parent devices 1 parameters 130",
-    "name": [
-      "Pe Release"
-    ],
+    "live": {},
+    "id": "748",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 130",
+    "name": "Pe Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -2381,10 +2386,10 @@
     ]
   },
   "Pe End": {
-    "path": "this_device canonical_parent devices 1 parameters 131",
-    "name": [
-      "Pe End"
-    ],
+    "live": {},
+    "id": "749",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 131",
+    "name": "Pe End",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2400,10 +2405,10 @@
     ]
   },
   "Pe R Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 132",
-    "name": [
-      "Pe R Slope"
-    ],
+    "live": {},
+    "id": "750",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 132",
+    "name": "Pe R Slope",
     "is_quantized": 0,
     "default_value": [
       1
@@ -2419,10 +2424,10 @@
     ]
   },
   "Pe Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 133",
-    "name": [
-      "Pe Mode"
-    ],
+    "live": {},
+    "id": "751",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 133",
+    "name": "Pe Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2435,10 +2440,10 @@
     ]
   },
   "Pe Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 134",
-    "name": [
-      "Pe Loop"
-    ],
+    "live": {},
+    "id": "752",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 134",
+    "name": "Pe Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -2454,10 +2459,10 @@
     ]
   },
   "Pe Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 135",
-    "name": [
-      "Pe Retrig"
-    ],
+    "live": {},
+    "id": "753",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 135",
+    "name": "Pe Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -2473,10 +2478,10 @@
     ]
   },
   "Pe R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 136",
-    "name": [
-      "Pe R < Vel"
-    ],
+    "live": {},
+    "id": "754",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 136",
+    "name": "Pe R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2492,10 +2497,10 @@
     ]
   },
   "Pe Amount": {
-    "path": "this_device canonical_parent devices 1 parameters 137",
-    "name": [
-      "Pe Amount"
-    ],
+    "live": {},
+    "id": "755",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 137",
+    "name": "Pe Amount",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2511,10 +2516,10 @@
     ]
   },
   "Pe Amt A": {
-    "path": "this_device canonical_parent devices 1 parameters 138",
-    "name": [
-      "Pe Amt A"
-    ],
+    "live": {},
+    "id": "756",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 138",
+    "name": "Pe Amt A",
     "is_quantized": 0,
     "default_value": [
       100
@@ -2530,10 +2535,10 @@
     ]
   },
   "Pe Dst B": {
-    "path": "this_device canonical_parent devices 1 parameters 139",
-    "name": [
-      "Pe Dst B"
-    ],
+    "live": {},
+    "id": "757",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 139",
+    "name": "Pe Dst B",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2546,10 +2551,10 @@
     ]
   },
   "Pe Amt B": {
-    "path": "this_device canonical_parent devices 1 parameters 140",
-    "name": [
-      "Pe Amt B"
-    ],
+    "live": {},
+    "id": "758",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 140",
+    "name": "Pe Amt B",
     "is_quantized": 0,
     "default_value": [
       100
@@ -2565,10 +2570,10 @@
     ]
   },
   "LFO On": {
-    "path": "this_device canonical_parent devices 1 parameters 141",
-    "name": [
-      "LFO On"
-    ],
+    "live": {},
+    "id": "759",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 141",
+    "name": "LFO On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2581,10 +2586,10 @@
     ]
   },
   "LFO Type": {
-    "path": "this_device canonical_parent devices 1 parameters 142",
-    "name": [
-      "LFO Type"
-    ],
+    "live": {},
+    "id": "760",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 142",
+    "name": "LFO Type",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2597,10 +2602,10 @@
     ]
   },
   "LFO Range": {
-    "path": "this_device canonical_parent devices 1 parameters 143",
-    "name": [
-      "LFO Range"
-    ],
+    "live": {},
+    "id": "761",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 143",
+    "name": "LFO Range",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2613,10 +2618,10 @@
     ]
   },
   "LFO Rate": {
-    "path": "this_device canonical_parent devices 1 parameters 144",
-    "name": [
-      "LFO Rate"
-    ],
+    "live": {},
+    "id": "762",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 144",
+    "name": "LFO Rate",
     "is_quantized": 0,
     "default_value": [
       64
@@ -2632,10 +2637,10 @@
     ]
   },
   "LFO Sync": {
-    "path": "this_device canonical_parent devices 1 parameters 145",
-    "name": [
-      "LFO Sync"
-    ],
+    "live": {},
+    "id": "763",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 145",
+    "name": "LFO Sync",
     "is_quantized": 0,
     "default_value": [
       3
@@ -2651,10 +2656,10 @@
     ]
   },
   "LFO R < K": {
-    "path": "this_device canonical_parent devices 1 parameters 146",
-    "name": [
-      "LFO R < K"
-    ],
+    "live": {},
+    "id": "764",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 146",
+    "name": "LFO R < K",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2670,10 +2675,10 @@
     ]
   },
   "LFO Retrigger": {
-    "path": "this_device canonical_parent devices 1 parameters 147",
-    "name": [
-      "LFO Retrigger"
-    ],
+    "live": {},
+    "id": "765",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 147",
+    "name": "LFO Retrigger",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -2686,10 +2691,10 @@
     ]
   },
   "LFO Amt": {
-    "path": "this_device canonical_parent devices 1 parameters 148",
-    "name": [
-      "LFO Amt"
-    ],
+    "live": {},
+    "id": "766",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 148",
+    "name": "LFO Amt",
     "is_quantized": 0,
     "default_value": [
       0.25
@@ -2705,10 +2710,10 @@
     ]
   },
   "LFO Amt A": {
-    "path": "this_device canonical_parent devices 1 parameters 149",
-    "name": [
-      "LFO Amt A"
-    ],
+    "live": {},
+    "id": "767",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 149",
+    "name": "LFO Amt A",
     "is_quantized": 0,
     "default_value": [
       100
@@ -2724,10 +2729,10 @@
     ]
   },
   "LFO Dst B": {
-    "path": "this_device canonical_parent devices 1 parameters 150",
-    "name": [
-      "LFO Dst B"
-    ],
+    "live": {},
+    "id": "768",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 150",
+    "name": "LFO Dst B",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2740,10 +2745,10 @@
     ]
   },
   "LFO Amt B": {
-    "path": "this_device canonical_parent devices 1 parameters 151",
-    "name": [
-      "LFO Amt B"
-    ],
+    "live": {},
+    "id": "769",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 151",
+    "name": "LFO Amt B",
     "is_quantized": 0,
     "default_value": [
       100
@@ -2759,10 +2764,10 @@
     ]
   },
   "LFO < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 152",
-    "name": [
-      "LFO < Vel"
-    ],
+    "live": {},
+    "id": "770",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 152",
+    "name": "LFO < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2778,10 +2783,10 @@
     ]
   },
   "LFO < Pe": {
-    "path": "this_device canonical_parent devices 1 parameters 153",
-    "name": [
-      "LFO < Pe"
-    ],
+    "live": {},
+    "id": "771",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 153",
+    "name": "LFO < Pe",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -2794,10 +2799,10 @@
     ]
   },
   "Le Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 154",
-    "name": [
-      "Le Attack"
-    ],
+    "live": {},
+    "id": "772",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 154",
+    "name": "Le Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2813,10 +2818,10 @@
     ]
   },
   "Le Init": {
-    "path": "this_device canonical_parent devices 1 parameters 155",
-    "name": [
-      "Le Init"
-    ],
+    "live": {},
+    "id": "773",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 155",
+    "name": "Le Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2832,10 +2837,10 @@
     ]
   },
   "Le Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 156",
-    "name": [
-      "Le Decay"
-    ],
+    "live": {},
+    "id": "774",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 156",
+    "name": "Le Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
@@ -2851,10 +2856,10 @@
     ]
   },
   "Le Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 157",
-    "name": [
-      "Le Peak"
-    ],
+    "live": {},
+    "id": "775",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 157",
+    "name": "Le Peak",
     "is_quantized": 0,
     "default_value": [
       1
@@ -2870,10 +2875,10 @@
     ]
   },
   "Le Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 158",
-    "name": [
-      "Le Sustain"
-    ],
+    "live": {},
+    "id": "776",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 158",
+    "name": "Le Sustain",
     "is_quantized": 0,
     "default_value": [
       1
@@ -2889,10 +2894,10 @@
     ]
   },
   "Le Release": {
-    "path": "this_device canonical_parent devices 1 parameters 159",
-    "name": [
-      "Le Release"
-    ],
+    "live": {},
+    "id": "777",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 159",
+    "name": "Le Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -2908,10 +2913,10 @@
     ]
   },
   "Le End": {
-    "path": "this_device canonical_parent devices 1 parameters 160",
-    "name": [
-      "Le End"
-    ],
+    "live": {},
+    "id": "778",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 160",
+    "name": "Le End",
     "is_quantized": 0,
     "default_value": [
       0
@@ -2927,10 +2932,10 @@
     ]
   },
   "Le Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 161",
-    "name": [
-      "Le Mode"
-    ],
+    "live": {},
+    "id": "779",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 161",
+    "name": "Le Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -2943,10 +2948,10 @@
     ]
   },
   "Le Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 162",
-    "name": [
-      "Le Loop"
-    ],
+    "live": {},
+    "id": "780",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 162",
+    "name": "Le Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -2962,10 +2967,10 @@
     ]
   },
   "Le Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 163",
-    "name": [
-      "Le Retrig"
-    ],
+    "live": {},
+    "id": "781",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 163",
+    "name": "Le Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -2981,10 +2986,10 @@
     ]
   },
   "Le R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 164",
-    "name": [
-      "Le R < Vel"
-    ],
+    "live": {},
+    "id": "782",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 164",
+    "name": "Le R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3000,10 +3005,10 @@
     ]
   },
   "Filter On": {
-    "path": "this_device canonical_parent devices 1 parameters 165",
-    "name": [
-      "Filter On"
-    ],
+    "live": {},
+    "id": "783",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 165",
+    "name": "Filter On",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3016,10 +3021,10 @@
     ]
   },
   "Filter Type": {
-    "path": "this_device canonical_parent devices 1 parameters 166",
-    "name": [
-      "Filter Type"
-    ],
+    "live": {},
+    "id": "784",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 166",
+    "name": "Filter Type",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3032,10 +3037,10 @@
     ]
   },
   "Filter Circuit - LP/HP": {
-    "path": "this_device canonical_parent devices 1 parameters 167",
-    "name": [
-      "Filter Circuit - LP/HP"
-    ],
+    "live": {},
+    "id": "785",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 167",
+    "name": "Filter Circuit - LP/HP",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3048,10 +3053,10 @@
     ]
   },
   "Filter Circuit - BP/NO/Morph": {
-    "path": "this_device canonical_parent devices 1 parameters 168",
-    "name": [
-      "Filter Circuit - BP/NO/Morph"
-    ],
+    "live": {},
+    "id": "786",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 168",
+    "name": "Filter Circuit - BP/NO/Morph",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3064,10 +3069,10 @@
     ]
   },
   "Filter Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 169",
-    "name": [
-      "Filter Slope"
-    ],
+    "live": {},
+    "id": "787",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 169",
+    "name": "Filter Slope",
     "is_quantized": 1,
     "reset_value": [
       1
@@ -3080,16 +3085,16 @@
     ]
   },
   "Filter Freq": {
-    "path": "this_device canonical_parent devices 1 parameters 170",
-    "name": [
-      "Filter Freq"
-    ],
+    "live": {},
+    "id": "788",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 170",
+    "name": "Filter Freq",
     "is_quantized": 0,
     "default_value": [
       0.437930703163147
     ],
     "reset_value": [
-      1
+      0.932621121406555
     ],
     "min": [
       0
@@ -3099,16 +3104,16 @@
     ]
   },
   "Filter Res": {
-    "path": "this_device canonical_parent devices 1 parameters 171",
-    "name": [
-      "Filter Res"
-    ],
+    "live": {},
+    "id": "789",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 171",
+    "name": "Filter Res",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      0.277777791023254
     ],
     "min": [
       0
@@ -3118,10 +3123,10 @@
     ]
   },
   "Filter Morph": {
-    "path": "this_device canonical_parent devices 1 parameters 172",
-    "name": [
-      "Filter Morph"
-    ],
+    "live": {},
+    "id": "790",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 172",
+    "name": "Filter Morph",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3137,10 +3142,10 @@
     ]
   },
   "Filter Drive": {
-    "path": "this_device canonical_parent devices 1 parameters 173",
-    "name": [
-      "Filter Drive"
-    ],
+    "live": {},
+    "id": "791",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 173",
+    "name": "Filter Drive",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3156,10 +3161,10 @@
     ]
   },
   "Filt < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 174",
-    "name": [
-      "Filt < Vel"
-    ],
+    "live": {},
+    "id": "792",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 174",
+    "name": "Filt < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3175,16 +3180,16 @@
     ]
   },
   "Filt < Key": {
-    "path": "this_device canonical_parent devices 1 parameters 175",
-    "name": [
-      "Filt < Key"
-    ],
+    "live": {},
+    "id": "793",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 175",
+    "name": "Filt < Key",
     "is_quantized": 0,
     "default_value": [
       0
     ],
     "reset_value": [
-      0
+      100
     ],
     "min": [
       -200
@@ -3194,10 +3199,10 @@
     ]
   },
   "Fe Amount": {
-    "path": "this_device canonical_parent devices 1 parameters 176",
-    "name": [
-      "Fe Amount"
-    ],
+    "live": {},
+    "id": "794",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 176",
+    "name": "Fe Amount",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3213,10 +3218,10 @@
     ]
   },
   "Filt < LFO": {
-    "path": "this_device canonical_parent devices 1 parameters 177",
-    "name": [
-      "Filt < LFO"
-    ],
+    "live": {},
+    "id": "795",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 177",
+    "name": "Filt < LFO",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3229,10 +3234,10 @@
     ]
   },
   "Fe Attack": {
-    "path": "this_device canonical_parent devices 1 parameters 178",
-    "name": [
-      "Fe Attack"
-    ],
+    "live": {},
+    "id": "796",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 178",
+    "name": "Fe Attack",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3248,10 +3253,10 @@
     ]
   },
   "Fe Init": {
-    "path": "this_device canonical_parent devices 1 parameters 179",
-    "name": [
-      "Fe Init"
-    ],
+    "live": {},
+    "id": "797",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 179",
+    "name": "Fe Init",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3267,10 +3272,10 @@
     ]
   },
   "Fe A Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 180",
-    "name": [
-      "Fe A Slope"
-    ],
+    "live": {},
+    "id": "798",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 180",
+    "name": "Fe A Slope",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3286,10 +3291,10 @@
     ]
   },
   "Fe Decay": {
-    "path": "this_device canonical_parent devices 1 parameters 181",
-    "name": [
-      "Fe Decay"
-    ],
+    "live": {},
+    "id": "799",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 181",
+    "name": "Fe Decay",
     "is_quantized": 0,
     "default_value": [
       0.581428050994873
@@ -3305,16 +3310,16 @@
     ]
   },
   "Fe Peak": {
-    "path": "this_device canonical_parent devices 1 parameters 182",
-    "name": [
-      "Fe Peak"
-    ],
+    "live": {},
+    "id": "800",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 182",
+    "name": "Fe Peak",
     "is_quantized": 0,
     "default_value": [
       1
     ],
     "reset_value": [
-      0
+      1
     ],
     "min": [
       0
@@ -3324,10 +3329,10 @@
     ]
   },
   "Fe D Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 183",
-    "name": [
-      "Fe D Slope"
-    ],
+    "live": {},
+    "id": "801",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 183",
+    "name": "Fe D Slope",
     "is_quantized": 0,
     "default_value": [
       1
@@ -3343,10 +3348,10 @@
     ]
   },
   "Fe Sustain": {
-    "path": "this_device canonical_parent devices 1 parameters 184",
-    "name": [
-      "Fe Sustain"
-    ],
+    "live": {},
+    "id": "802",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 184",
+    "name": "Fe Sustain",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3362,10 +3367,10 @@
     ]
   },
   "Fe Release": {
-    "path": "this_device canonical_parent devices 1 parameters 185",
-    "name": [
-      "Fe Release"
-    ],
+    "live": {},
+    "id": "803",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 185",
+    "name": "Fe Release",
     "is_quantized": 0,
     "default_value": [
       0.355570584535599
@@ -3381,10 +3386,10 @@
     ]
   },
   "Fe End": {
-    "path": "this_device canonical_parent devices 1 parameters 186",
-    "name": [
-      "Fe End"
-    ],
+    "live": {},
+    "id": "804",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 186",
+    "name": "Fe End",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3400,10 +3405,10 @@
     ]
   },
   "Fe R Slope": {
-    "path": "this_device canonical_parent devices 1 parameters 187",
-    "name": [
-      "Fe R Slope"
-    ],
+    "live": {},
+    "id": "805",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 187",
+    "name": "Fe R Slope",
     "is_quantized": 0,
     "default_value": [
       1
@@ -3419,10 +3424,10 @@
     ]
   },
   "Fe Mode": {
-    "path": "this_device canonical_parent devices 1 parameters 188",
-    "name": [
-      "Fe Mode"
-    ],
+    "live": {},
+    "id": "806",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 188",
+    "name": "Fe Mode",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3435,10 +3440,10 @@
     ]
   },
   "Fe Loop": {
-    "path": "this_device canonical_parent devices 1 parameters 189",
-    "name": [
-      "Fe Loop"
-    ],
+    "live": {},
+    "id": "807",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 189",
+    "name": "Fe Loop",
     "is_quantized": 0,
     "default_value": [
       0.539794027805328
@@ -3454,10 +3459,10 @@
     ]
   },
   "Fe Retrig": {
-    "path": "this_device canonical_parent devices 1 parameters 190",
-    "name": [
-      "Fe Retrig"
-    ],
+    "live": {},
+    "id": "808",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 190",
+    "name": "Fe Retrig",
     "is_quantized": 0,
     "default_value": [
       3
@@ -3473,10 +3478,10 @@
     ]
   },
   "Fe R < Vel": {
-    "path": "this_device canonical_parent devices 1 parameters 191",
-    "name": [
-      "Fe R < Vel"
-    ],
+    "live": {},
+    "id": "809",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 191",
+    "name": "Fe R < Vel",
     "is_quantized": 0,
     "default_value": [
       0
@@ -3492,10 +3497,10 @@
     ]
   },
   "Shaper Type": {
-    "path": "this_device canonical_parent devices 1 parameters 192",
-    "name": [
-      "Shaper Type"
-    ],
+    "live": {},
+    "id": "810",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 192",
+    "name": "Shaper Type",
     "is_quantized": 1,
     "reset_value": [
       0
@@ -3508,10 +3513,10 @@
     ]
   },
   "Shaper Mix": {
-    "path": "this_device canonical_parent devices 1 parameters 193",
-    "name": [
-      "Shaper Mix"
-    ],
+    "live": {},
+    "id": "811",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 193",
+    "name": "Shaper Mix",
     "is_quantized": 0,
     "default_value": [
       100
@@ -3527,10 +3532,10 @@
     ]
   },
   "Shaper Drive": {
-    "path": "this_device canonical_parent devices 1 parameters 194",
-    "name": [
-      "Shaper Drive"
-    ],
+    "live": {},
+    "id": "617",
+    "path": "this_device canonical_parent devices 1 chains 1 devices 0 parameters 194",
+    "name": "Shaper Drive",
     "is_quantized": 0,
     "default_value": [
       0

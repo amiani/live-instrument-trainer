@@ -53,7 +53,7 @@
       "name": "Osc-B On",
       "action": "set",
       "value": 1,
-      "isLocked": true
+      "isLocked": false
     },
     {
       "name": "Osc-B Level",
